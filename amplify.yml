@@ -5,6 +5,7 @@ frontend:
       commands:
         - nvm use 18
         - npm install
+        - npm install --save-dev @esbuild/linux-x64
     build:
       commands:
         - bash build-for-amplify-hosting.sh
