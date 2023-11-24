@@ -1,0 +1,19 @@
+---
+// pages/todo.astro
+import Layout from "../layouts/Layout.astro";
+import App from "../components/App.tsx";
+---
+
+<Layout title="Amplify Gen 2">
+    <main>
+        <App client:only="react" />
+    </main>
+</Layout>
+
+<style>
+    main {
+        margin: auto;
+        width: 800px;
+        color: white;
+    }
+</style>
