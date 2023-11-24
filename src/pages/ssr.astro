@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+const { method, url } = Astro.request;
+const userAgent = Astro.request.headers.get('user-agent');
+---
+<Layout title="SSR テスト">
+	<main>
+        <h1>SSR テスト</h1>
+        <ul>
+            <li>method: {method}</li>
+            <li>url: {url}</li>
+            <li>userAgent: {userAgent}</li>
+        </ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		width: 800px;
+		color: white;
+	}
+</style>
