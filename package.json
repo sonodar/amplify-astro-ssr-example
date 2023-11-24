@@ -12,7 +12,18 @@
   "dependencies": {
     "@astrojs/check": "^0.3.1",
     "@astrojs/node": "^6.0.4",
+    "@astrojs/react": "^3.0.6",
+    "@aws-amplify/ui-react": "^6.0.3",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
     "astro": "^3.5.5",
+    "aws-amplify": "^6.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.5.5",
+    "@aws-amplify/backend-cli": "^0.9.1",
     "typescript": "^5.3.2"
   }
 }
